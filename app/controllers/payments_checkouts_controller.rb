@@ -1,0 +1,2 @@
+class PaymentsCheckoutsController < ApplicationController
+end
