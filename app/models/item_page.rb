@@ -1,0 +1,2 @@
+class ItemPage < ApplicationRecord
+end

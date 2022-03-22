@@ -1,0 +1,2 @@
+class PaymentCheckout < ApplicationRecord
+end
