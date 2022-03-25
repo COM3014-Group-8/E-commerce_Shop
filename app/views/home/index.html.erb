@@ -1,19 +1,103 @@
-<div class="collapse" id="navbarToggleExternalContent">
-  <div class="bg-dark p-4" style="position:relative; width:12%; top: 10px; left: 10px;">
-    <h5 class="text-white h5"><a href="#">Account</a></h5>
-    <h5 class="text-white h5"><a href="#">Your Cart</a></h5>
-    <h5 class="text-white h5"><a href="#">Contact Us</a></h5>
-  </div>
-</div>
-<nav class="navbar navbar-dark bg-dark" style="position:relative; width:12%; top: 10px; left: 10px;">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="logo"></div>
-    <h6 class="text-white h4" style="position:relative; left: -10px; top: 5px;">Pixela</h6>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        
+        .menu {
+            height: 50%;
+            width: 85px;
+            position: fixed;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            white-space: nowrap;
+            z-index: 1;
+            background-color: #111;
+            
+        }
+        
+        .menu a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+            font-size: 22px;
+            color: #818181;
+        }
+        
+        .menu a:hover {
+            color: #f1f1f1;
+        }
+        
+        .material-icons {
+            padding-bottom: 3px;
+        }
+        
+        .material-icons,
+        .icon-text {
+            vertical-align: middle;
+        }
+        
+        
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+            margin-left: 85px;
+        }
+        
+        @media screen and (max-height: 450px) {
+            .menu {
+                padding-top: 15px;
+            }
+            .menu a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="myMenu" class="menu" onmouseover="toggleMenu()" onmouseout="toggleMenu()">
+        <div class="logo">
+        <h6 class="text-white h3" style="position:relative; left: 80px; top: 12px;">Pixela</h6>
+        </div>
+        <a href="#"><i class="material-icons">account_circle</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account</a></span>
+        </a><br>
+        <a href="#"><i class="material-icons">shopping_cart</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cart</span></a><br>
+        <a href="#"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact<span></a>
+    </div>
+
+    <div id="main">
+        <h2>Pixela</h2>
+        <p>For nostalgic memories.</p>
+    </div>
+
+    <script>
+        var mini = true;
+
+        function toggleMenu() {
+            if (mini) {
+                console.log("opening menu");
+                document.getElementById("myMenu").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                this.mini = false;
+            } else {
+                console.log("closing menu");
+                document.getElementById("myMenu").style.width = "85px";
+                document.getElementById("main").style.marginLeft = "85px";
+                this.mini = true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
 <div class="search-bar">
     <input class="search-tool" type="text" name="" placeholder="Looking For Something?">
     <a class="search-button" href="#">
