@@ -8,8 +8,8 @@
     <style>
         
         .menu {
-            height: 50%;
-            width: 85px;
+            height: 63.6%;
+            width: 90px;
             position: fixed;
             overflow-x: hidden;
             transition: 0.5s;
@@ -42,11 +42,30 @@
             vertical-align: middle;
         }
         
-        
         #main {
             transition: margin-left .5s;
             padding: 16px;
-            margin-left: 85px;
+            margin-left: 90px;
+        }
+
+        #boox{
+            transition: margin-left .5s;
+            padding: 16px;
+            margin-left: 90px;
+            background-color: white;
+            position:absolute;
+            width: 250px;
+            height: 100px;
+            top: -10px;
+            left: -30px;
+            z-index: -1;
+            filter: blur(60px);
+            -webkit-filter: blur(60px);
+
+        }
+
+        p{
+            font-size: 16px;
         }
         
         @media screen and (max-height: 450px) {
@@ -72,6 +91,7 @@
         <a href="#"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact<span></a>
     </div>
 
+    <div id="boox"></div>
     <div id="main">
         <h2>Pixela</h2>
         <p>For nostalgic memories.</p>
@@ -85,11 +105,13 @@
                 console.log("opening menu");
                 document.getElementById("myMenu").style.width = "250px";
                 document.getElementById("main").style.marginLeft = "250px";
+                document.getElementById("boox").style.marginLeft = "250px";
                 this.mini = false;
             } else {
                 console.log("closing menu");
-                document.getElementById("myMenu").style.width = "85px";
-                document.getElementById("main").style.marginLeft = "85px";
+                document.getElementById("myMenu").style.width = "90px";
+                document.getElementById("main").style.marginLeft = "90px";
+                document.getElementById("boox").style.marginLeft = "90px";
                 this.mini = true;
             }
         }
@@ -104,3 +126,19 @@
     <i class="fa-solid fa-magnifying-glass"></i>
     </a>
 </div>
+
+<div id="slideshow">
+    <figure>
+        <img src="https://i.postimg.cc/YqZ6cGh8/pic1.jpg">
+        <img src="https://i.postimg.cc/90S7jKFz/pic2.jpg">
+        <img src="https://i.postimg.cc/661RR2Lw/pic3.jpg">
+        <img src="https://i.postimg.cc/GhWy7W55/pic4.jpg">
+        <img src="https://i.postimg.cc/FKZkK7sM/pic5.jpg">
+        <img src="https://i.postimg.cc/nr6CWm0D/pic6.jpg">
+        <img src="https://i.postimg.cc/XYxsyKLL/pic7.jpg">
+        <img src="https://i.postimg.cc/hG5M2SH7/pic8.jpg">
+        <img src="https://i.postimg.cc/sD4ctPkz/pic9.jpg">
+        <img src="https://i.postimg.cc/YqZ6cGh8/pic1.jpg">
+    </figure>
+</div>
+
