@@ -278,21 +278,21 @@ p6{
 
 .circle {
     position:absolute;
-    top: 28px;
-    left: 12px;
+    top: 60px;
+    left: -170px;
     background: #33cccc;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 8.5em;
-    width: 8.5em;
+    height: 11em;
+    width: 11em;
     z-index: -1;
   }
 
   .circle2 {
     position:absolute;
-    top: 137px;
-    left: 172px;
+    top: 60px;
+    left: 57px;
     background: #66ccff;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
@@ -304,8 +304,8 @@ p6{
 
   .circle3 {
     position:absolute;
-    top: 26px;
-    left: 372px;
+    top: 60px;
+    left: 278px;
     background: #6666ff;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
@@ -317,60 +317,60 @@ p6{
 
   .circle4 {
     position:absolute;
-    top: 210px;
-    left: -156px;
+    top: 320px;
+    left: -165px;
     background: #66ff66;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 12em;
-    width: 12em;
+    height: 11em;
+    width: 11em;
     z-index: -1;
   }
 
   .circle5 {
     position:absolute;
-    top: 230px;
-    left: 518px;
+    top: 60px;
+    left: 500px;
     background: #ff66ff;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 10em;
-    width: 10em;
+    height: 11em;
+    width: 11em;
     z-index: -1;
   }
 
   .circle6 {
     position:absolute;
-    top: 430px;
-    left: 0px;
+    top: 320px;
+    left: 57px;
     background: #ffff66;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 10em;
-    width: 10em;
+    height: 11em;
+    width: 11em;
     z-index: -1;
   }
 
   .circle7 {
     position:absolute;
-    top: 325px;
-    left: 190px;
+    top: 320px;
+    left: 278px;
     background: #ff9966;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 9em;
-    width: 9em;
+    height: 11em;
+    width: 11em;
     z-index: -1;
   }
 
   .circle8 {
     position:absolute;
-    top: 422px;
-    left: 372px;
+    top: 320px;
+    left: 500px;
     background: #ff0066;
     border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
