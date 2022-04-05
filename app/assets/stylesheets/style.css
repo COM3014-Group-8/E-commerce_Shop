@@ -149,4 +149,282 @@ h2{
     }
 }
 
+.item1{
+    height: 80px;
+    width: 80px;
+    background: url(cam1.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item2{
+    height: 80px;
+    width: 80px;
+    background: url(cam2.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item3{
+    height: 80px;
+    width: 80px;
+    background: url(cam3.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item4{
+    height: 80px;
+    width: 80px;
+    background: url(cam5.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item5{
+    height: 80px;
+    width: 80px;
+    background: url(cam6.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item6{
+    height: 80px;
+    width: 80px;
+    background: url(cam7.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item7{
+    height: 80px;
+    width: 80px;
+    background: url(cam8.png) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item8{
+    height: 80px;
+    width: 80px;
+    background: url(cam9.jpg) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.item1:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item2:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item3:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item4:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item5:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item6:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item7:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+.item8:hover{
+    background-size: 100%;
+    background-position: center;
+}
+
+p5{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+p6{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0%;
+    transition: 1s;
+    pointer-events: none;
+}
+
+.circle {
+    position:absolute;
+    top: 28px;
+    left: 12px;
+    background: #33cccc;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 8.5em;
+    width: 8.5em;
+    z-index: -1;
+  }
+
+  .circle2 {
+    position:absolute;
+    top: 137px;
+    left: 172px;
+    background: #66ccff;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 11em;
+    width: 11em;
+    z-index: -1;
+  }
+
+  .circle3 {
+    position:absolute;
+    top: 26px;
+    left: 372px;
+    background: #6666ff;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 11em;
+    width: 11em;
+    z-index: -1;
+  }
+
+  .circle4 {
+    position:absolute;
+    top: 210px;
+    left: -156px;
+    background: #66ff66;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 12em;
+    width: 12em;
+    z-index: -1;
+  }
+
+  .circle5 {
+    position:absolute;
+    top: 230px;
+    left: 518px;
+    background: #ff66ff;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 10em;
+    width: 10em;
+    z-index: -1;
+  }
+
+  .circle6 {
+    position:absolute;
+    top: 430px;
+    left: 0px;
+    background: #ffff66;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 10em;
+    width: 10em;
+    z-index: -1;
+  }
+
+  .circle7 {
+    position:absolute;
+    top: 325px;
+    left: 190px;
+    background: #ff9966;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 9em;
+    width: 9em;
+    z-index: -1;
+  }
+
+  .circle8 {
+    position:absolute;
+    top: 422px;
+    left: 372px;
+    background: #ff0066;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 11em;
+    width: 11em;
+    z-index: -1;
+  }
+
+  .item1:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item2:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item3:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item4:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item5:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item6:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item7:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
+
+.item8:hover p6{
+    background-size: 100%;
+    background-position: center;
+    opacity: 100%;
+}
 
