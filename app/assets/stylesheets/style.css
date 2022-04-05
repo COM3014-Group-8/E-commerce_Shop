@@ -268,7 +268,7 @@ p5{
 }
 
 p6{
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     opacity: 0%;
@@ -279,37 +279,34 @@ p6{
 .circle {
     position:absolute;
     top: 60px;
-    left: -170px;
+    left: -160px;
     background: #33cccc;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
     height: 11em;
     width: 11em;
     z-index: -1;
+    box-shadow: 0px 0px 25px 5px #33cccc;
   }
 
   .circle2 {
     position:absolute;
     top: 60px;
-    left: 57px;
+    left: 67px;
     background: #66ccff;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
     height: 11em;
     width: 11em;
     z-index: -1;
+    box-shadow: 0px 0px 25px 5px #66ccff;
   }
 
   .circle3 {
     position:absolute;
     top: 60px;
-    left: 278px;
+    left: 288px;
     background: #6666ff;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0px 0px 25px 5px #6666ff;
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -318,11 +315,10 @@ p6{
   .circle4 {
     position:absolute;
     top: 320px;
-    left: -165px;
+    left: -155px;
     background: #66ff66;
-    border: 0.1875em solid #0F1C3F;
+    box-shadow: 0px 0px 25px 5px #66ff66;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -331,11 +327,10 @@ p6{
   .circle5 {
     position:absolute;
     top: 60px;
-    left: 500px;
+    left: 510px;
     background: #ff66ff;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0px 0px 25px 5px #ff66ff;
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -344,11 +339,10 @@ p6{
   .circle6 {
     position:absolute;
     top: 320px;
-    left: 57px;
+    left: 67px;
     background: #ffff66;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0px 0px 25px 5px #ffff66;
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -357,11 +351,10 @@ p6{
   .circle7 {
     position:absolute;
     top: 320px;
-    left: 278px;
+    left: 288px;
     background: #ff9966;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0px 0px 25px 5px #ff9966;
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -370,11 +363,10 @@ p6{
   .circle8 {
     position:absolute;
     top: 320px;
-    left: 500px;
+    left: 510px;
     background: #ff0066;
-    border: 0.1875em solid #0F1C3F;
     border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0px 0px 25px 5px #ff0066;
     height: 11em;
     width: 11em;
     z-index: -1;
@@ -426,5 +418,25 @@ p6{
     background-size: 100%;
     background-position: center;
     opacity: 100%;
+}
+
+.square{
+    position: absolute;
+    top: 0px;
+    left: 960px;
+    height: 937px;
+    width: 960px;
+    background-color: #111;
+    z-index: -2;
+}
+
+.square2{
+    position: absolute;
+    top: 596px;
+    left: 0px;
+    height: 36.4%;
+    width: 960px;
+    background-color: #111;
+    z-index: -2;
 }
 
