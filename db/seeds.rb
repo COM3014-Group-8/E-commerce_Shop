@@ -28,7 +28,7 @@ price: 3105.00)
 Product.create!(title: 'CANON EOS 2000D DSLR Camera with EF-S 18-55 mm f/3.5-5.6 III & EF 75-300 mm f/4-5.6 III Lens ',
 description:
 %{<p>
-<em>Take fantastic photos| Connect your camera|Guided modes| Fast autofocus and processing </em>
+<em>Take fantastic photos | Connect your camera | Guided modes | Fast autofocus and processing </em>
 The Canon EOS 2000D DSLR Camera lets you take photos packed with detail, and Full HD videos that brings action to life. The standard zoom lens included with the camera is perfect for use in a wide range of situations, while the telephoto zoom lens is great for sports and nature.
 </p>},
 image_url: 'pic12.jpg',
