@@ -1,4 +1,6 @@
 .products {
+  background-color: black;
+  color:white;
   margin: 0;
   padding: 0.5em;
   a {
@@ -14,8 +16,25 @@
   }
 
   tr.list_line_odd {
-    background-color: #effeef;
+    background-color: white;
+    color:black;
+
+    a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+color: blue;
+}
+
+
   }
+
+
 
   td.image {
     // Hide this on mobile devices
@@ -28,6 +47,7 @@
       display: block;
       img {
         height: 11.3em;
+        width:  12.0em;
       }
     }
   }
@@ -53,4 +73,21 @@
       padding: 0.5em 0;
     }
   }
+
+  a:link, a:visited {
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+  a:hover, a:active {
+color: blue;
+}
+
+  h1:hover{
+    color:blue;
+}
+
 }
