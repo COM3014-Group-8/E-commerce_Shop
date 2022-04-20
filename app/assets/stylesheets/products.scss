@@ -1,8 +1,19 @@
+
 .products {
+  body{
+
+    background-color: black;
+  }
+  html{
+    background-color: black;
+  }
+  *{
+    background-color: black;
+  }
   background-color: black;
   color:white;
-  margin: 0;
-  padding: 0.5em;
+  margin: 6em;
+  padding: 4.5em;
   a {
     padding: 0.354em 0.5em;
     border-radius: 0.354em;
@@ -16,11 +27,11 @@
   }
 
   tr.list_line_odd {
-    background-color: white;
-    color:black;
+    background-color: black;
+    color:white;
 
     a:link, a:visited {
-  color: black;
+  color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;

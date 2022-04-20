@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ header.main {
+
+   height: 90px;
+ text-align: left; // center on mobile
+ @media (min-width: 30em) {
+ text-align: left; // left align on desktop
+ }
+ background: black;
+ margin: 0;
+ h1 {
+ text-align: left;
+padding: 0em;
+margin-bottom: 0em;
+ color: white;
+ }
+ h1:hover{
+color:blue;
+ }
+ }
+ body{
+  background-color: black;
+ }
