@@ -14,9 +14,13 @@
  *= require_self
  */
 
+.products{
+  padding-top:  0px;
+  padding-left: 20px;
+}
  header.main {
 
-   height: 90px;
+height: 90px;
  text-align: left; // center on mobile
  @media (min-width: 30em) {
  text-align: left; // left align on desktop
@@ -36,3 +40,14 @@ color:blue;
  body{
   background-color: black;
  }
+ .notice, #notice {
+padding-left: 100px;
+background: black;
+border-radius: 0.5em;
+border: solid 0.177em white;
+color: white;
+font-weight: bold;
+margin-bottom: 1em;
+padding: 1em 1.414em;
+text-align: center;
+}
