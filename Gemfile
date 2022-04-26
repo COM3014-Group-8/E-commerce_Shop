@@ -7,6 +7,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 gem "sprockets-rails"
 
+gem 'mail_form'
+
 gem "sqlite3", "~> 1.4"
 
 gem "tzinfo-data"

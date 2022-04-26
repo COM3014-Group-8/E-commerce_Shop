@@ -120,7 +120,7 @@
         <a href="#"><i class="material-icons">account_circle</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account</a></span>
         </a><br>
         <a href="/store/index"><i class="material-icons">shopping_cart</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cart</span></a><br>
-        <a href="#"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact<span></a>
+        <a href="/contacts/new"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact<span></a>
     </div>
 
     <div id="boox"></div>
@@ -151,7 +151,14 @@
 
 
 
-
+    <div class="container" style="background-color: black;
+    color:white;">
+      <br>
+      <% flash.each do |key, message| %>
+        <p style="background-color: black;
+        color:white;  padding-left: 4em;"  class="alert alert-<%= key %>"><%= message %></p>
+      <% end %>
+    </div>
 
 
 

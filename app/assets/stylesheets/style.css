@@ -9,6 +9,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: black;
 }
+.alert-success {
+background-color: black;
+color:white;
+}
 
 *{
 
@@ -16,7 +20,7 @@ input[type="submit"]:hover {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    
+
 }
 
 body{
