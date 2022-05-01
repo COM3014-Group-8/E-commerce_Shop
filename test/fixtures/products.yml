@@ -1,0 +1,20 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString1
+  description: MyText
+  image_url: pic11.jpg
+  price: 9.99
+
+two:
+  title: MyString2
+  description: MyText
+  image_url: pic11.jpg
+  price: 9.99
+
+camera:
+  title:       Camera
+  description:
+    Exciting, Best in the business.
+  price:       499.99
+  image_url:   pic4.jpg

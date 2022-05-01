@@ -1,10 +1,31 @@
+input[type="submit"] {
+  background-color: white;
+  border-radius: 0.354em;
+  border: solid thin #441;
+  color: black;
+  font-size: 1em;
+  padding: 0.354em 1em;
+}
+input[type="submit"]:hover {
+  background-color: black;
+}
+.alert-success {
+background-color: black;
+color:white;
+}
+
 *{
+
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+
 }
 
+body{
+
+}
 h2{
     font-weight: bold;
 }
@@ -65,7 +86,7 @@ h2{
 }
 
 #slideshow {
-    overflow: hidden;
+    overflow:hidden;
     top: -118px;
     width: 870px;
     left: 90px;
@@ -74,6 +95,7 @@ h2{
 }
 
 #slideshow figure{
+
     position: relative;
     width: 1000%;
     margin: 0;
@@ -82,6 +104,7 @@ h2{
 }
 
 #slideshow figure img{
+
     float: left;
     width: 10%;
 }
